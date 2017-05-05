@@ -16,7 +16,7 @@
  * // returns [1, 2, 3]
  * circularShift([1, 2, 3], 6);
  * @example
- * // returns [2, 3, 1]
+ * // returns [1, 2, 3]
  * circularShift([1, 2, 3], -3);
  */
 function circularShift(array: any[], count: number): any[] {
