@@ -1,0 +1,19 @@
+parser: babel-eslint
+plugins:
+  - prettier
+extends:
+  - airbnb-base
+  - airbnb-flow
+  - prettier
+  - prettier/flowtype
+rules:
+  require-jsdoc:
+    - error
+    - require:
+        FunctionDeclaration: true
+        MethodDefinition: true
+        ClassDeclaration: true
+  prettier/prettier:
+    - error
+    - trailingComma: all
+      singleQuote: true
